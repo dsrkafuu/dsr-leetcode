@@ -26,7 +26,7 @@
  * 交换之后如果依旧 nums[i] !== i，则继续交换；
  * 交换时如果 nums[i] === nums[nums[i]]，即找到重复元素。
  *
- * https://leetcode-cn.com/submissions/detail/137886172/
+ * https://leetcode-cn.com/submissions/detail/137890828/
  */
 
 /**
