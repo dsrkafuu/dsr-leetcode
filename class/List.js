@@ -1,5 +1,6 @@
 class ListNode {
   /**
+   * 链表结点
    * @param {any} val
    * @param {ListNode} next
    */
@@ -11,6 +12,7 @@ class ListNode {
 
 class List {
   /**
+   * 使用数组构建链表
    * @param {Array} arr
    */
   constructor(arr) {
