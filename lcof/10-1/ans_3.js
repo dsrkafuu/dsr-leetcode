@@ -14,7 +14,7 @@
  *
  * 解法 3：查表
  *
- * https://leetcode-cn.com/submissions/detail/138773440/
+ * https://leetcode-cn.com/submissions/detail/138774072/
  */
 
 const arr = [
