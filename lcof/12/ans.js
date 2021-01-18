@@ -19,7 +19,7 @@
  * 1 <= board.length <= 200
  * 1 <= board[i].length <= 200
  *
- * 解法：DFS + 剪枝
+ * 解法：回溯 (DFS)
  *
  * 递归思路：
  * 1. 记当前寻找到的字母为 board[row][col]，寻找的字母为 word[cur]；
