@@ -7,3 +7,5 @@ LeetCode submissions, all problem solving steps are explained in the comments (z
 
 - `class`: Class constructors used in code. (ES6 modules)
 - `lcof`: <https://leetcode-cn.com/problemset/lcof/>
+
+Blog post: <https://blog.amzrk2.cc/code/leetcode/>
