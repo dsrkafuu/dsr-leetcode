@@ -5,10 +5,10 @@
   "description": "Write few lines of code everyday.",
   "type": "module",
   "scripts": {},
-  "author": "DSRKafuU <amzrk2@outlook.com> (https://amzrk2.cc/)",
+  "author": "DSRKafuU <dsrkafuu@outlook.com> (https://dsrkafuu.co)",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/amzrk2/dsr-leetcode"
+    "url": "https://github.com/dsrkafuu/dsr-leetcode"
   }
 }
