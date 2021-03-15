@@ -6,6 +6,7 @@
  * 输入: [3,2,3,1,2,4,5,5,6] 和 k = 4
  * 输出: 4
  *
+ * 解法：基于快速排序的改进
  * https://leetcode-cn.com/submissions/detail/154631788/
  */
 

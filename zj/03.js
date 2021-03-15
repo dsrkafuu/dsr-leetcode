@@ -9,6 +9,7 @@
  * num1 和num2 都不包含任何前导零
  * 你不能使用任何內建 BigInteger 库，也不能直接将输入的字符串转换为整数形式
  *
+ * 解法：模拟
  * https://leetcode-cn.com/submissions/detail/154560774/
  */
 

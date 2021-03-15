@@ -10,6 +10,7 @@
  * 输出：[0,1]
  * 解释：因为 nums[0] + nums[1] == 9 ，返回 [0, 1]。
  *
+ * 解法：Map
  * https://leetcode-cn.com/submissions/detail/154561843/
  */
 

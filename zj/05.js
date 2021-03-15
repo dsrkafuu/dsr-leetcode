@@ -10,6 +10,7 @@
  * 输出：2
  * 解释：子数组 [4,3] 是该条件下的长度最小的子数组。
  *
+ * 解法：滑动窗口
  * https://leetcode-cn.com/submissions/detail/154619850/
  */
 
