@@ -17,6 +17,6 @@
 /**
  * @param {string} s
  * @param {string} p
- * @return {boolean}
+ * @returns {boolean}
  */
 const isMatch = (s, p) => Boolean(new RegExp(`^${p}$`).exec(s));

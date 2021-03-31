@@ -32,7 +32,7 @@
 /**
  * @param {number[][]} matrix
  * @param {number} target
- * @return {boolean}
+ * @returns {boolean}
  */
 const findNumberIn2DArray = (matrix, target) => {
   if (Number.isNaN(target) || !matrix.length || !matrix[0].length) {

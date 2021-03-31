@@ -33,7 +33,7 @@
  * @param {Array} arr
  * @param {number} a
  * @param {number} b
- * @return {boolean}
+ * @returns {boolean}
  */
 function swap(arr, a, b) {
   if (arr[a] === arr[b]) {
@@ -45,7 +45,7 @@ function swap(arr, a, b) {
 
 /**
  * @param {number[]} nums
- * @return {number}
+ * @returns {number}
  */
 const findRepeatNumber = (nums) => {
   for (let i = 0; i < nums.length; i++) {

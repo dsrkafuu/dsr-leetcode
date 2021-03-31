@@ -21,7 +21,7 @@ import { TreeNode } from '../../class/Tree.js';
 /**
  * @param {TreeNode} lRoot
  * @param {TreeNode} rRoot
- * @return {boolean}
+ * @returns {boolean}
  */
 const checkLR = (lRoot, rRoot) => {
   // 都为 null，则对称
@@ -38,7 +38,7 @@ const checkLR = (lRoot, rRoot) => {
 
 /**
  * @param {TreeNode} root
- * @return {boolean}
+ * @returns {boolean}
  */
 const isSymmetric = (root) => {
   if (!root) {

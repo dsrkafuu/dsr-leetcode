@@ -12,7 +12,7 @@
 
 /**
  * @param {TreeNode} root
- * @return {number}
+ * @returns {number}
  */
 var sumNumbers = function (root) {
   let sum = 0;

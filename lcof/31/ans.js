@@ -27,7 +27,7 @@
 /**
  * @param {number[]} pushed
  * @param {number[]} popped
- * @return {boolean}
+ * @returns {boolean}
  */
 const validateStackSequences = (pushed, popped) => {
   if (!pushed.length && !popped.length) {

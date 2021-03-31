@@ -61,14 +61,14 @@ class MinStack {
   }
 
   /**
-   * @return {number|undefined}
+   * @returns {number|undefined}
    */
   top() {
     return this.s.top();
   }
 
   /**
-   * @return {number|undefined}
+   * @returns {number|undefined}
    */
   min() {
     return this.m;

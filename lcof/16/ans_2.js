@@ -37,7 +37,7 @@
 /**
  * @param {number} x
  * @param {number} n
- * @return {number}
+ * @returns {number}
  */
 const myPow = (x, n) => {
   if (x === 0) {

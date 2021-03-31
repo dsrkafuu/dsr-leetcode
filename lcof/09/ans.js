@@ -44,14 +44,14 @@ class CQueue {
 
   /**
    * @param {number} value
-   * @return {void}
+   * @returns {void}
    */
   appendTail(value) {
     this.inStack.push(value);
   }
 
   /**
-   * @return {number}
+   * @returns {number}
    */
   deleteHead() {
     // outStack 有内容

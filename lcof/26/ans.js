@@ -31,7 +31,7 @@ import { TreeNode } from '../../class/Tree.js';
  * 判断操作 (相同根节点子结构)
  * @param {TreeNode} aRoot
  * @param {TreeNode} bRoot 同根子结构
- * @return {boolean}
+ * @returns {boolean}
  */
 const checkRootSame = (aRoot, bRoot) => {
   // B 为空，即子结构已经遍历比对完成，匹配成功
@@ -52,7 +52,7 @@ const checkRootSame = (aRoot, bRoot) => {
  * 外层遍历 (先序遍历 A 树的每个结点作为 root)
  * @param {TreeNode} A
  * @param {TreeNode} B 子结构
- * @return {boolean}
+ * @returns {boolean}
  */
 const isSubStructure = (A, B) => {
   if (!A || !B) {

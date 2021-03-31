@@ -16,7 +16,7 @@
 /**
  * @param {string} num1
  * @param {string} num2
- * @return {string}
+ * @returns {string}
  */
 var addStrings = function (num1, num2) {
   let p1 = num1.length - 1;

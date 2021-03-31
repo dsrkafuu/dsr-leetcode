@@ -16,7 +16,7 @@
 /**
  * @param {number} m
  * @param {number} n
- * @return {number}
+ * @returns {number}
  */
 var uniquePaths = function (m, n) {
   const matrix = new Array(m).fill(1).map(() => new Array(n).fill(1));

@@ -43,7 +43,7 @@ import { TreeNode } from '../../class/Tree.js';
  * @param {number} u 中序数组头
  * @param {number} v 中序数组尾
  * @param {Object} map 中序数组下标映射
- * @return {TreeNode}
+ * @returns {TreeNode}
  */
 const _buildTree = (preorder, i, j, inorder, u, v, map) => {
   // 递归出口
@@ -70,7 +70,7 @@ const _buildTree = (preorder, i, j, inorder, u, v, map) => {
 /**
  * @param {number[]} preorder
  * @param {number[]} inorder
- * @return {TreeNode}
+ * @returns {TreeNode}
  */
 const buildTree = (preorder, inorder) => {
   if (!preorder.length || !inorder.length) {

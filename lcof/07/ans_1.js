@@ -33,7 +33,7 @@ import { TreeNode } from '../../class/Tree.js';
 /**
  * @param {number[]} preorder
  * @param {number[]} inorder
- * @return {TreeNode}
+ * @returns {TreeNode}
  */
 const buildTree = (preorder, inorder) => {
   // 递归出口

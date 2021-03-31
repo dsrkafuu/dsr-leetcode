@@ -43,7 +43,7 @@
  * @param {number} row
  * @param {number} col
  * @param {number} cur
- * @return {boolean}
+ * @returns {boolean}
  */
 const _exist = (board, word, row, col, cur) => {
   // 递归出口 1：失败 (剪枝)
@@ -74,7 +74,7 @@ const _exist = (board, word, row, col, cur) => {
 /**
  * @param {string[][]} board
  * @param {string} word
- * @return {boolean}
+ * @returns {boolean}
  */
 const exist = (board, word) => {
   for (let row = 0; row < board.length; row++) {

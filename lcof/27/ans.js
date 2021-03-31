@@ -13,7 +13,7 @@ import { TreeNode } from '../../class/Tree.js';
 
 /**
  * @param {TreeNode} root
- * @return {TreeNode}
+ * @returns {TreeNode}
  */
 const mirrorTree = (root) => {
   if (!root || (!root.left && !root.right)) {

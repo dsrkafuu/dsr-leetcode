@@ -16,7 +16,7 @@ import { ListNode, List } from '../../class/List.js';
 /**
  * @param {ListNode} head
  * @param {number} val
- * @return {ListNode}
+ * @returns {ListNode}
  */
 const deleteNode = (head, val) => {
   // 空链表

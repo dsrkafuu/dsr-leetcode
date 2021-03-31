@@ -37,7 +37,7 @@
 
 /**
  * @param {number} n
- * @return {number}
+ * @returns {number}
  */
 const cuttingRope = (n) => {
   // 边界情况

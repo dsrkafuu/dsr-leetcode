@@ -21,7 +21,7 @@
 
 /**
  * @param {number[]} nums
- * @return {number[]}
+ * @returns {number[]}
  */
 const exchange = (nums) => {
   if (nums.length > 1) {

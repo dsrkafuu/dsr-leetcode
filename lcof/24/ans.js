@@ -13,7 +13,7 @@ import { List, ListNode } from '../../class/List.js';
 
 /**
  * @param {ListNode} head
- * @return {ListNode}
+ * @returns {ListNode}
  */
 const reverseList = (head) => {
   if (!head || !head.next) {

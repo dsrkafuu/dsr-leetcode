@@ -14,6 +14,6 @@
 
 /**
  * @param {string} s
- * @return {string}
+ * @returns {string}
  */
 const replaceSpace = (s) => s.replace(/ /gi, '%20');

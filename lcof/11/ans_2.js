@@ -24,7 +24,7 @@
 
 /**
  * @param {number[]} numbers
- * @return {number}
+ * @returns {number}
  */
 const minArray = (numbers) => {
   let l = 0;

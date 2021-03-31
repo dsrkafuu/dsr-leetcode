@@ -12,7 +12,7 @@
 
 /**
  * @param {string} s
- * @return {boolean}
+ * @returns {boolean}
  */
 const isNumber = (s) => {
   s = s.trim();

@@ -10,7 +10,7 @@
 
 /**
  * @param {number[]} nums
- * @return {number[][]}
+ * @returns {number[][]}
  */
 var permute = function (nums) {
   const ret = [];

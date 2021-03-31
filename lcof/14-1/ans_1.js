@@ -31,7 +31,7 @@
 /**
  * @param {number} n
  * @param {Array<number>} map 缓存
- * @return {number}
+ * @returns {number}
  */
 const _cuttingRope = (n, map) => {
   // 初值 f(2) = 1
@@ -54,7 +54,7 @@ const _cuttingRope = (n, map) => {
 
 /**
  * @param {number} n
- * @return {number}
+ * @returns {number}
  */
 const cuttingRope = (n) => {
   const map = new Array(n + 1);

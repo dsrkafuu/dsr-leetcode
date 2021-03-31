@@ -12,7 +12,7 @@
 /**
  * @param {TreeNode} root
  * @param {number} targetSum
- * @return {boolean}
+ * @returns {boolean}
  */
 var hasPathSum = function (root, targetSum) {
   if (!root) {

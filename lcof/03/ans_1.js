@@ -26,7 +26,7 @@
 
 /**
  * @param {number[]} nums
- * @return {number}
+ * @returns {number}
  */
 const findRepeatNumber = (nums) => {
   // set

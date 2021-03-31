@@ -10,7 +10,7 @@
 
 /**
  * @param {string} s
- * @return {number}
+ * @returns {number}
  */
 var lengthOfLongestSubstring = function (s) {
   if (!s) {

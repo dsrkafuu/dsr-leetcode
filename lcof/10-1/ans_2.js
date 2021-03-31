@@ -19,7 +19,7 @@
 
 /**
  * @param {number} n
- * @return {number}
+ * @returns {number}
  */
 const fib = (n) => {
   let a = 0;

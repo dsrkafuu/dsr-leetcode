@@ -33,7 +33,7 @@ const _fib = (n, map) => {
 
 /**
  * @param {number} n
- * @return {number}
+ * @returns {number}
  */
 const fib = (n) => {
   if (n === 0 || n === 1) {

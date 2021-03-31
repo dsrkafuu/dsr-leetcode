@@ -25,7 +25,7 @@
 
 /**
  * @param {number[]} nums
- * @return {number[]}
+ * @returns {number[]}
  */
 const exchange = (nums) => nums.sort((a, b) => (b % 2) - (a % 2));
 

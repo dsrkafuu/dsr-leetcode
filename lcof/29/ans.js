@@ -28,7 +28,7 @@
 
 /**
  * @param {number[][]} matrix
- * @return {number[]}
+ * @returns {number[]}
  */
 const spiralOrder = (matrix) => {
   const res = []; // 结果

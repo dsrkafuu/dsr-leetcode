@@ -13,7 +13,7 @@
 /**
  * @param {number[]} nums
  * @param {number} k
- * @return {number}
+ * @returns {number}
  */
 var findKthLargest = function (nums, k) {
   function swap(i, j) {

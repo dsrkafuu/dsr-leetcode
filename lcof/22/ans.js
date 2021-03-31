@@ -17,7 +17,7 @@ import { List, ListNode } from '../../class/List.js';
 /**
  * @param {ListNode} head
  * @param {number} k
- * @return {ListNode}
+ * @returns {ListNode}
  */
 const getKthFromEnd = (head, k) => {
   if (!head || k < 1) {

@@ -13,7 +13,7 @@
 /**
  * @param {string} version1
  * @param {string} version2
- * @return {number}
+ * @returns {number}
  */
 var compareVersion = function (version1, version2) {
   const v1 = version1.split('.');

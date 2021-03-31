@@ -18,7 +18,7 @@ import { ListNode } from '../../class/List.js';
 /**
  * @param {ListNode} l1
  * @param {ListNode} l2
- * @return {ListNode}
+ * @returns {ListNode}
  */
 const mergeTwoLists = (l1, l2) => {
   if (!l1 && !l2) {

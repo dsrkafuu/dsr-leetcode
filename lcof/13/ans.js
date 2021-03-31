@@ -39,7 +39,7 @@
  * 数位和计算
  * @param {number} num
  * @param {Object} map 计算缓存
- * @return {number}
+ * @returns {number}
  */
 const sum = (num, map) => {
   if (map[num] !== undefined) {
@@ -59,7 +59,7 @@ const sum = (num, map) => {
  * @param {number} i
  * @param {number} j
  * @param {Object} params
- * @return {number}
+ * @returns {number}
  */
 const _movingCount = (i, j, params) => {
   const { m, n, k, visited, map } = params;
@@ -77,7 +77,7 @@ const _movingCount = (i, j, params) => {
  * @param {number} m
  * @param {number} n
  * @param {number} k
- * @return {number}
+ * @returns {number}
  */
 const movingCount = (m, n, k) => {
   // 全局参数

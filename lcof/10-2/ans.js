@@ -26,7 +26,7 @@
 
 /**
  * @param {number} n
- * @return {number}
+ * @returns {number}
  */
 const numWays = function (n) {
   let a = 1;

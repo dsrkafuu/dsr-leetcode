@@ -18,7 +18,7 @@
 
 /**
  * @param {number} n
- * @return {number[]}
+ * @returns {number[]}
  */
 const printNumbers = (n) => {
   const res = [];

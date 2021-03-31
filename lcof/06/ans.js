@@ -22,7 +22,7 @@ import { List, ListNode } from '../../class/List.js';
 
 /**
  * @param {ListNode} head
- * @return {number[]}
+ * @returns {number[]}
  */
 const reversePrint = (head) => {
   const res = [];

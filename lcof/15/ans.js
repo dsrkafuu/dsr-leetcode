@@ -21,6 +21,6 @@
 
 /**
  * @param {number} n
- * @return {number}
+ * @returns {number}
  */
 const hammingWeight = (n) => (n.toString(2).match(/1/g) || []).length;
