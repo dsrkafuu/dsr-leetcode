@@ -36,7 +36,7 @@ var addStrings = function (num1, num2) {
       add = 1;
       sum = sum - 10;
     }
-    ret = sum + ret;
+    ret = `${sum}${ret}`;
   }
 
   // 补全最后进位

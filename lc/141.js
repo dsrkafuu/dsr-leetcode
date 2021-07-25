@@ -3,6 +3,8 @@
  * https://leetcode-cn.com/problems/linked-list-cycle/solution/huan-xing-lian-biao-by-leetcode-solution/
  *
  * 给定一个链表，判断链表中是否有环。
+ *
+ * https://leetcode-cn.com/submissions/detail/199482353/
  */
 
 /**
@@ -18,12 +20,13 @@ var hasCycle = function (head) {
   let slow = head;
 
   while (fast && slow) {
-    slow = slow.next;
-    fast = fast.next;
-    if (!fast) {
+    try {
+      slow = slow.next;
+      fast = fast.next;
+      fast = fast.next;
+    } catch {
       return false;
     }
-    fast = fast.next;
     if (slow === fast) {
       return true;
     }
