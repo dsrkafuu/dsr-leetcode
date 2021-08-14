@@ -30,7 +30,7 @@ var isValid = function (s) {
   const patterns = ['{}', '()', '[]'];
   for (const char of s.split('')) {
     const top = stack.length ? stack[stack.length - 1] : null;
-    if (patterns.includes(`${top}${char}`)) {
+    if (top && patterns.includes(`${top}${char}`)) {
       stack.pop();
     } else {
       stack.push(char);
