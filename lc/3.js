@@ -25,17 +25,15 @@ var lengthOfLongestSubstring = function (s) {
   charSet.add(s.charAt(0));
 
   while (left < s.length) {
-    if (left !== 0) {
-      // 左指针右移则移除最左侧字符
-      charSet.delete(s.charAt(left - 1));
-    }
     // 右指针持续右移直到出现重复字符
     while (right + 1 < s.length && !charSet.has(s.charAt(right + 1))) {
       charSet.add(s.charAt(right + 1));
       right++;
     }
     max = Math.max(max, right - left + 1);
+    // 左指针右移则移除最左侧字符
     left++;
+    charSet.delete(s.charAt(left - 1));
   }
 
   return max;
