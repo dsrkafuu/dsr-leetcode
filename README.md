@@ -1,7 +1,7 @@
 # dsr-leetcode
 
-![BADGE](https://img.shields.io/tokei/lines/github/dsrkafuu/dsr-leetcode)
-![BADGE](https://img.shields.io/github/license/dsrkafuu/dsr-leetcode)
+![](https://img.shields.io/tokei/lines/github/dsrkafuu/dsr-leetcode)
+![](https://img.shields.io/github/license/dsrkafuu/dsr-leetcode)
 
 Front-end developer LeetCode submissions, all problem solving steps are explained in the comments (zh-Hans).
 

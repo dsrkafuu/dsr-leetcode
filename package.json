@@ -5,10 +5,14 @@
   "description": "Write few lines of code everyday.",
   "type": "module",
   "scripts": {},
-  "author": "DSRKafuU <dsrkafuu@outlook.com> (https://dsrkafuu.su)",
+  "author": "DSRKafuU <dsrkafuu@outlook.com> (https://dsrkafuu.net)",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/dsrkafuu/dsr-leetcode"
+  },
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "prettier": "^2.5.1"
   }
 }
